@@ -9,7 +9,7 @@ class HomeScreen extends StatelessWidget {
     return MaterialApp(
         home: Scaffold(
             appBar: AppBar(
-                title: const Text("Home Screen Nav Bar !"),
+                title: const Text("Home Screen"),
                 centerTitle: true,
                 backgroundColor: Colors.blue[500]),
             body: CourseListListView()));

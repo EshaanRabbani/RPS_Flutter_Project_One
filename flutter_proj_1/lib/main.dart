@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_proj_1/Widget/HomeScreen.dart';
 
 void main() {
-  runApp(const MyApp());
+  // runApp(
+  //   const Center(child: Text("Hello World !", textDirection: TextDirection.ltr)));
+runApp(const HomeScreen());
 }
 
 class MyApp extends StatelessWidget {
